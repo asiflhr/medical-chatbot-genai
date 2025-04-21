@@ -29,3 +29,9 @@ source medibot/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+## Step4. Run 'store_index.py' to store the data in the Pinecone Vector Store:
+
+```bash
+python store_index.py
+```
