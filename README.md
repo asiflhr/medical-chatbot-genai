@@ -10,6 +10,16 @@
 git clone https://github.com/asiflhr/medical-chatbot-genai.git
 ```
 
+## Set up the environment variables:
+
+- Create a `.env` file in the root directory of the project.
+- Add the following environment variables to the `.env` file:
+
+```bash
+PINECONE_API_KEY=your_pinecone_api_key
+GOOGLE_API_KEY=your_google_api_key
+```
+
 ## Step2. Create a virtual environment and activate it:
 
 ```bash
@@ -34,4 +44,16 @@ pip install -r requirements.txt
 
 ```bash
 python store_index.py
+```
+
+## Step5. Run the Flask app:
+
+```bash
+python app.py
+```
+
+## Step6. Open the chatbot in your browser:
+
+```bash
+http://localhost:8080
 ```
